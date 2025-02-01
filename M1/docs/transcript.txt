@@ -1,0 +1,66 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project cascaded_ece593_alu
+# reading /pkgs/mentor/questa/2021.3_1/questasim/linux_x86_64/../modelsim.ini
+# Loading project AHB2APB
+# Compile of AHB_Master.sv was successful.
+# Compile of AHB_Slave_Interface.sv was successful.
+# Compile of APB_Controller.sv was successful.
+# Compile of APB_Interface.sv was successful.
+# Compile of Bridge_Top.sv was successful.
+# Compile of Testbench.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.bridge_tb -voptargs=+acc
+# vsim -gui work.bridge_tb -voptargs="+acc" 
+# Start time: 15:09:32 on Jan 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "APB_FSM_Controller(fast)".
+# Loading sv_std.std
+# Loading work.bridge_tb(fast)
+# Loading work.Bridge_Top(fast)
+# Loading work.AHB_slave_interface(fast)
+# Loading work.APB_FSM_Controller(fast)
+add wave -position insertpoint  \
+sim:/bridge_tb/Pwrite \
+sim:/bridge_tb/Pwdata \
+sim:/bridge_tb/Pselx \
+sim:/bridge_tb/Prdata \
+sim:/bridge_tb/Penable \
+sim:/bridge_tb/Paddr \
+sim:/bridge_tb/Hwrite \
+sim:/bridge_tb/Hwdata \
+sim:/bridge_tb/Htrans \
+sim:/bridge_tb/Hresp \
+sim:/bridge_tb/Hresetn \
+sim:/bridge_tb/Hreadyout \
+sim:/bridge_tb/Hreadyin \
+sim:/bridge_tb/Hrdata \
+sim:/bridge_tb/Hclk \
+sim:/bridge_tb/Haddr \
+sim:/bridge_tb/errors
+run -all
+# 
+# Starting Bridge Tests...
+# 
+#                   65 Write matched: Pwrite=1, Paddr=0x80000001, Pwdata=0xa5a5a5a5
+#                  115 Read matched: Hrdata=0x5a5a5a5a
+# 
+# Testbench PASSED with no errors!
+# 
+# ** Note: $finish    : /u/dj23/ECE593/Final Project/Testbench.sv(218)
+#    Time: 115 ns  Iteration: 1  Instance: /bridge_tb
+# 1
+# Break in Module bridge_tb at /u/dj23/ECE593/Final Project/Testbench.sv line 218
