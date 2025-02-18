@@ -3,64 +3,74 @@
 // Module:  Driver
 // File:    driver.sv
 // -----------------------------------------------------------------------------
-// Author:  Mohamed Ghonim
-// Created: 26-Jul-2023
-//
-// Description: 
-// The SystemVerilog driver class is responsible for receiving transactions 
-// from the generator and driving them into the Design Under Verification (DUV). 
-// It communicates with the DUV through a virtual interface 'vif'.
-//
-// The driver class has transaction handles and several mailboxes: 'gen2driv', 
-// 'driv2sb', and 'driv2cor'. The 'gen2driv' mailbox is used to receive 
-// transactions from the generator, 'driv2sb' sends transactions to the 
-// scoreboard for verification, and 'driv2cor' sends transactions directly 
-// to the DUV.
-//
-// The 'drive' task is the main routine of the driver. It retrieves a 
-// transaction from the generator using 'gen2driv.get(tx)', then sends it 
-// to the scoreboard and the DUV using 'driv2sb.put(tx)' and 'driv2cor.put(tx)' 
-// respectively.
-//
-// After that, the 'drive' task uses the virtual interface to drive the 
-// transaction values to the DUV. It assigns each signal in the DUV with 
-// the corresponding value from the transaction. Then it waits for a clock 
-// edge before proceeding.
-// -----------------------------------------------------------------------------
+//Team members:
+//   Daniel Jacobsen
+//   BALAJI Ginkal Harisha
+//   Mohith Kumar Bennahatti Chikkegowda
+//   Akshaya Kudumalakunte Ravi Kumar
+// Created: 16/Feb/2025 
+
+//**SystemVerilog driver class** is responsible for receiving 
+//transactions from the generator and driving them into the 
+//**Design Under Verification (DUV)**. It communicates with the DUV using a **virtual interface
+//(`vif`)**, ensuring seamless interaction. The driver maintains **transaction handles** and multiple 
+//**mailboxes** to facilitate data flow. The **`gen2driv`** mailbox receives transactions from the
+//generator, while **`driv2sb`** forwards them to the scoreboard for verification, and **`driv2cor`** sends them directly to the DUV.  
+
+//The core functionality of the driver is encapsulated in the **`drive` task**, 
+//which retrieves transactions from the generator using **`gen2driv.get(tx)`**, 
+//then transmits them to both the scoreboard and the DUV via **`driv2sb.put(tx)`** and **`driv2cor.put(tx)`**, 
+//respectively. After that, the driver utilizes the **virtual interface (`vif`)** to assign 
+//transaction values to the corresponding signals in the DUV. To maintain synchronization, it
+// waits for a clock edge before proceeding to the next transaction, ensuring accurate and reliable 
+//communication between the verification components.=
 
 
 class driver;
 
     Transaction tx; // Handle for transactions       
-
     mailbox #(Transaction) gen2driv; // Generator to Driver mailbox
     mailbox #(Transaction) driv2sb;  // Driver to Scoreboard mailbox
-    mailbox #(Transaction) driv2cor; // Driver to DUV (Device Under Verification) mailbox
-    virtual ahb_apb_bfm_if.master vif;                 // Virtual interface to DUV
+    mailbox #(Transaction) driv2cor; // Driver to DUV mailbox
+    virtual ahb_apb_bfm_if.master vif; // Virtual interface to DUT
 
-    // Constructor
-    function new(mailbox #(Transaction)gen2driv, mailbox #(Transaction)driv2sb, mailbox #(Transaction)driv2cor, virtual ahb_apb_bfm_if.master vif);
-        this.gen2driv = gen2driv; // assigning gen2driv 
-        this.driv2sb = driv2sb;   // assigning driv2sb
-        this.driv2cor = driv2cor; // assigning driv2cor
-        this.vif = vif;           // assigning virtual interface
+    function new(mailbox #(Transaction) gen2driv, mailbox #(Transaction) driv2sb, mailbox #(Transaction) driv2cor, virtual ahb_apb_bfm_if.master vif);
+        this.gen2driv = gen2driv;
+        this.driv2sb = driv2sb;
+        this.driv2cor = driv2cor;
+        this.vif = vif;
     endfunction
 
-// Task to get packets from generator and drive them into interface
-task drive; 
-    gen2driv.get(tx);   
-    driv2sb.put(tx);   
-    driv2cor.put(tx);
-    $display("driver tx", tx);
-    // Driving the values to the DUV via the virtual interface
-    vif.drv_cb.Hwrite <= tx.Hwrite;     
-    vif.drv_cb.Htrans <= tx.Htrans;
-    vif.drv_cb.Hwdata <= tx.Hwdata;     
-    vif.drv_cb.Haddr <= tx.Haddr;
-   #10;  // wait for 10 time units
-    // vif.drv_cb.Hsize <= tx.Hsize;      
-    // vif.drv_cb.Hburst <= tx.Hburst;    
-endtask
-endclass
+    task drive; 
+        gen2driv.get(tx);   
+        driv2sb.put(tx);   
+        driv2cor.put(tx);
 
+        // Display transaction details from the driver
+        $display("[DRIVER] - Driving Transaction to DUT:");
+        $display("[DRIVER] - Haddr: %h, Hwdata: %h", tx.Haddr, tx.Hwdata);
+        case (tx.Hburst)
+            3'b001: $display("[DRIVER] - Hburst: %b (INCR)", tx.Hburst);
+            3'b010: $display("[DRIVER] - Hburst: %b (WRAP4)", tx.Hburst);
+            3'b011: $display("[DRIVER] - Hburst: %b (INCR4)", tx.Hburst);
+            3'b100: $display("[DRIVER] - Hburst: %b (WRAP8)", tx.Hburst);
+            3'b101: $display("[DRIVER] - Hburst: %b (INCR8)", tx.Hburst);
+            default: $display("[DRIVER] - Hburst: %b (UNKNOWN)", tx.Hburst);
+        endcase
+
+        case (tx.Htrans)
+            2'b10: $display("[DRIVER] - Htrans: %b (NON-SEQ)", tx.Htrans);
+            2'b11: $display("[DRIVER] - Htrans: %b (SEQ)", tx.Htrans);
+            default: $display("[DRIVER] - Htrans: %b (UNKNOWN)", tx.Htrans);
+        endcase
+
+        // Drive the transaction to the DUT
+        vif.drv_cb.Hwrite <= tx.Hwrite;     
+        vif.drv_cb.Htrans <= tx.Htrans;
+        vif.drv_cb.Hwdata <= tx.Hwdata;     
+        vif.drv_cb.Haddr <= tx.Haddr;
+        #10;  // Wait for 10 time units
+    endtask
+
+endclass
 

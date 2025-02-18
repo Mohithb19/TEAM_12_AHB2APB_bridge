@@ -1,12 +1,11 @@
 
-// AHB to APG Bridge | Maven Silicon
+// AHB to APG Bridge 
 //
 //
 //
 // APB FSM Controller
-// Date:08-06-2022
+// Date:16-02-2025
 //
-// By-Prajwal Kumar Sahu
 
 module APB_FSM_Controller( Hclk,Hresetn,valid,Haddr1,Haddr2,Hwdata1,Hwdata2,Prdata,Hwrite,Haddr,Hwdata,Hwritereg,tempselx, 
 			   Pwrite,Penable,Pselx,Paddr,Pwdata,Hreadyout);
