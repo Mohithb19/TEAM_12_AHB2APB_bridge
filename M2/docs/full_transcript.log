@@ -1,0 +1,2578 @@
+# in top
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000830, Hwdata: 4dc237a5
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [DRIVER] - Driving Transaction to DUT:
+# [DRIVER] - Haddr: 00000830, Hwdata: 4dc237a5
+# [DRIVER] - Hburst: 101 (INCR8)
+# [DRIVER] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000000, Hwdata: 00000000, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 101
+# Paddr: 792775491
+# Pwdata: 3479287983
+# Pwrite: 1
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 0
+# Hwdata: 0
+# Hwrite: 0
+# Htrans: 0
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00830
+# [SCOREBOARD] - Input Write Data: 4dc237a5
+# [SCOREBOARD] - Data Stored: 4dc237a5
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000002be, Hwdata: c736a29b
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000004b9, Hwdata: 4c37f46d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1209
+# Hwdata: 1278735469
+# Hwrite: 1
+# Htrans: 0
+# Hsize: 10
+# Hburst: 100
+# Paddr: 468546414
+# Pwdata: 1540393779
+# Pwrite: 1
+# Pselx: 100
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 004b9
+# [SCOREBOARD] - Input Write Data: 4c37f46d
+# [SCOREBOARD] - Data Stored: 4c37f46d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1209
+# Hwdata: 1278735469
+# Hwrite: 1
+# Htrans: 0
+# Hsize: 10
+# Hburst: 100
+# Paddr: 468546414
+# Pwdata: 1540393779
+# Pwrite: 1
+# Pselx: 100
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 004b9
+# [SCOREBOARD] - Input Write Data: 4c37f46d
+# [SCOREBOARD] - Data Stored: 4c37f46d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000541, Hwdata: 13323df5
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00541
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000176, Hwdata: e2dd3b48
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 374
+# Hwdata: 3806149448
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 1
+# Hburst: 101
+# Paddr: 718982869
+# Pwdata: 3943971828
+# Pwrite: 0
+# Pselx: 10
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00176
+# [SCOREBOARD] - Input Write Data: e2dd3b48
+# [SCOREBOARD] - Data Stored: e2dd3b48
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000911, Hwdata: 69c22474
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00911
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ab1, Hwdata: 82c6ecdd
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00ab1
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ebc, Hwdata: f1c43dcd
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 3772
+# Hwdata: 4056169933
+# Hwrite: 1
+# Htrans: 11
+# Hsize: 10
+# Hburst: 100
+# Paddr: 3600118701
+# Pwdata: 2895279886
+# Pwrite: 1
+# Pselx: 11
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00ebc
+# [SCOREBOARD] - Input Write Data: f1c43dcd
+# [SCOREBOARD] - Data Stored: f1c43dcd
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000d6a, Hwdata: 74bc6219
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 3434
+# Hwdata: 1958502937
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 101
+# Paddr: 2854804446
+# Pwdata: 730689779
+# Pwrite: 1
+# Pselx: 10
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00d6a
+# [SCOREBOARD] - Input Write Data: 74bc6219
+# [SCOREBOARD] - Data Stored: 74bc6219
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ddc, Hwdata: 3ff1b457
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00ddc
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000db5, Hwdata: 5e330af7
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00db5
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cc4, Hwdata: 0d5be5e2
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00cc4
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000801, Hwdata: cfb22a3b
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00801
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000e3e, Hwdata: 5f58bcca
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 3646
+# Hwdata: 1599651018
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 1
+# Hburst: 100
+# Paddr: 712355565
+# Pwdata: 1950641848
+# Pwrite: 0
+# Pselx: 101
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00e3e
+# [SCOREBOARD] - Input Write Data: 5f58bcca
+# [SCOREBOARD] - Data Stored: 5f58bcca
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000009ab, Hwdata: ae65d356
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 009ab
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000d7f, Hwdata: 73a9eac4
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00d7f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000069b, Hwdata: 12e5a570
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0069b
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000001c, Hwdata: a4448eb3
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 28
+# Hwdata: 2755956403
+# Hwrite: 1
+# Htrans: 0
+# Hsize: 10
+# Hburst: 101
+# Paddr: 1564363561
+# Pwdata: 1525899750
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 0001c
+# [SCOREBOARD] - Input Write Data: a4448eb3
+# [SCOREBOARD] - Data Stored: a4448eb3
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000f3, Hwdata: 67281901
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000f3
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000639, Hwdata: 2730915c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00639
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000a7f, Hwdata: 39bac569
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00a7f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000925, Hwdata: 4fd6cb78
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 2341
+# Hwdata: 1339476856
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 10
+# Hburst: 100
+# Paddr: 1940161684
+# Pwdata: 4146545876
+# Pwrite: 1
+# Pselx: 110
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00925
+# [SCOREBOARD] - Input Write Data: 4fd6cb78
+# [SCOREBOARD] - Data Stored: 4fd6cb78
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000c3, Hwdata: 8590e36c
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000c3
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000006bc, Hwdata: f0c866b1
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 006bc
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000dae, Hwdata: b4968915
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 3502
+# Hwdata: 3029764373
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 100
+# Paddr: 4024945352
+# Pwdata: 977399
+# Pwrite: 0
+# Pselx: 101
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00dae
+# [SCOREBOARD] - Input Write Data: b4968915
+# [SCOREBOARD] - Data Stored: b4968915
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000005c3, Hwdata: 97825761
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1475
+# Hwdata: 2541901665
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 0
+# Hburst: 101
+# Paddr: 361476134
+# Pwdata: 3934539590
+# Pwrite: 0
+# Pselx: 111
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 005c3
+# [SCOREBOARD] - Input Write Data: 97825761
+# [SCOREBOARD] - Data Stored: 97825761
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000005c4, Hwdata: c762dc98
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1476
+# Hwdata: 3345144984
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 100
+# Paddr: 3004873476
+# Pwdata: 1285224808
+# Pwrite: 0
+# Pselx: 11
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 005c4
+# [SCOREBOARD] - Input Write Data: c762dc98
+# [SCOREBOARD] - Data Stored: c762dc98
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cb7, Hwdata: 9f88ec46
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00cb7
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000db, Hwdata: eef89e1e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000db
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000006bb, Hwdata: 86b7bd6f
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1723
+# Hwdata: 2260188527
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 1
+# Hburst: 100
+# Paddr: 2354341310
+# Pwdata: 1814398937
+# Pwrite: 0
+# Pselx: 11
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 006bb
+# [SCOREBOARD] - Input Write Data: 86b7bd6f
+# [SCOREBOARD] - Data Stored: 86b7bd6f
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000002ec, Hwdata: 3047aead
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 748
+# Hwdata: 810004141
+# Hwrite: 1
+# Htrans: 0
+# Hsize: 1
+# Hburst: 100
+# Paddr: 651916210
+# Pwdata: 3047523017
+# Pwrite: 0
+# Pselx: 11
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 002ec
+# [SCOREBOARD] - Input Write Data: 3047aead
+# [SCOREBOARD] - Data Stored: 3047aead
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cbf, Hwdata: 2e4dbc4d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 3263
+# Hwdata: 776846413
+# Hwrite: 1
+# Htrans: 11
+# Hsize: 1
+# Hburst: 100
+# Paddr: 3836865331
+# Pwdata: 2397007094
+# Pwrite: 1
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00cbf
+# [SCOREBOARD] - Input Write Data: 2e4dbc4d
+# [SCOREBOARD] - Data Stored: 2e4dbc4d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000859, Hwdata: 90bec9bc
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00859
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000765, Hwdata: ebb54ad0
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00765
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000e75, Hwdata: 019e670c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00e75
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000801, Hwdata: 9f09b748
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 2049
+# Hwdata: 2668214088
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 10
+# Hburst: 100
+# Paddr: 4018861017
+# Pwdata: 2644911558
+# Pwrite: 1
+# Pselx: 100
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00801
+# [SCOREBOARD] - Input Write Data: 9f09b748
+# [SCOREBOARD] - Data Stored: 9f09b748
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000035f, Hwdata: 51df7f9e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 863
+# Hwdata: 1373601694
+# Hwrite: 1
+# Htrans: 11
+# Hsize: 0
+# Hburst: 101
+# Paddr: 528856081
+# Pwdata: 1720375300
+# Pwrite: 1
+# Pselx: 1
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 0035f
+# [SCOREBOARD] - Input Write Data: 51df7f9e
+# [SCOREBOARD] - Data Stored: 51df7f9e
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000014e, Hwdata: 1f826f4d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 334
+# Hwdata: 528641869
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 100
+# Paddr: 1428970039
+# Pwdata: 1145129143
+# Pwrite: 1
+# Pselx: 111
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 0014e
+# [SCOREBOARD] - Input Write Data: 1f826f4d
+# [SCOREBOARD] - Data Stored: 1f826f4d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000077d, Hwdata: 11384de2
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0077d
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000008f, Hwdata: 6ce1076c
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0008f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000532, Hwdata: 5fde3a21
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1330
+# Hwdata: 1608399393
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 100
+# Paddr: 3772961530
+# Pwdata: 1913195815
+# Pwrite: 1
+# Pselx: 10
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00532
+# [SCOREBOARD] - Input Write Data: 5fde3a21
+# [SCOREBOARD] - Data Stored: 5fde3a21
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000374, Hwdata: d7fcfd56
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00374
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000a58, Hwdata: 72be97fa
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00a58
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000f3a, Hwdata: cf5a704e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00f3a
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000b90, Hwdata: a74cf62c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 2960
+# Hwdata: 2806838828
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 0
+# Hburst: 100
+# Paddr: 1361048187
+# Pwdata: 2069180837
+# Pwrite: 1
+# Pselx: 101
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00b90
+# [SCOREBOARD] - Input Write Data: a74cf62c
+# [SCOREBOARD] - Data Stored: a74cf62c
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000092a, Hwdata: 4691d8e9
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 2346
+# Hwdata: 1183963369
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 100
+# Paddr: 2185431371
+# Pwdata: 2903703605
+# Pwrite: 0
+# Pselx: 111
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 0092a
+# [SCOREBOARD] - Input Write Data: 4691d8e9
+# [SCOREBOARD] - Data Stored: 4691d8e9
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000078, Hwdata: f0fcc408
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 120
+# Hwdata: 4043097096
+# Hwrite: 1
+# Htrans: 11
+# Hsize: 1
+# Hburst: 100
+# Paddr: 3931688207
+# Pwdata: 2797925979
+# Pwrite: 0
+# Pselx: 111
+# Penable: 1
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00078
+# [SCOREBOARD] - Input Write Data: f0fcc408
+# [SCOREBOARD] - Data Stored: f0fcc408
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000c23, Hwdata: 11af7271
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00c23
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000fd6, Hwdata: 1f7c8063
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 4054
+# Hwdata: 528253027
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 1
+# Hburst: 100
+# Paddr: 1385852447
+# Pwdata: 1182482864
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00fd6
+# [SCOREBOARD] - Input Write Data: 1f7c8063
+# [SCOREBOARD] - Data Stored: 1f7c8063
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000780, Hwdata: f72f666b
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Received Transaction from Driver:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_WRITE
+# Haddr: 1920
+# Hwdata: 4147078763
+# Hwrite: 1
+# Htrans: 1
+# Hsize: 0
+# Hburst: 100
+# Paddr: 405101994
+# Pwdata: 1361855553
+# Pwrite: 0
+# Pselx: 110
+# Penable: 0
+# [SCOREBOARD] - Received Transaction from Monitor:
+# Transaction Details:
+# -------------------
+# Transaction Type: AHB_READ
+# Haddr: 2096
+# Hwdata: 1304573861
+# Hwrite: 1
+# Htrans: 10
+# Hsize: 0
+# Hburst: 0
+# Paddr: 0
+# Pwdata: 0
+# Pwrite: 0
+# Pselx: 0
+# Penable: 0
+# [SCOREBOARD] - Input Address: 00780
+# [SCOREBOARD] - Input Write Data: f72f666b
+# [SCOREBOARD] - Data Stored: f72f666b
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# ** Note: $stop    : top.sv(116)
+#    Time: 100010 ns  Iteration: 0  Instance: /ahb_apb_top
+# Break at top.sv line 116
+# Saving coverage database on exit...
+# End time: 21:53:15 on Feb 18,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
+do run.do
+# QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+# Start time: 21:56:05 on Feb 18,2025
+# vlog -reportprogress 300 top.sv 
+# -- Compiling package top_sv_unit
+# ** Warning: test.sv(32): (vlog-2240) Treating stand-alone use of function 'create' as an implicit VOID cast.
+# -- Compiling interface ahb_apb_bfm_if
+# -- Compiling module AHB_slave_interface
+# -- Compiling module APB_FSM_Controller
+# -- Compiling module Bridge_Top
+# -- Compiling module ahb_apb_top
+# 
+# Top level modules:
+# 	ahb_apb_top
+# End time: 21:56:05 on Feb 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -cvgperinstance -c work.ahb_apb_top 
+# Start time: 21:56:05 on Feb 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Warning: test.sv(32): (vopt-2240) Treating stand-alone use of function 'create' as an implicit VOID cast.
+# ** Warning: environment.sv(41): (vopt-2250) Function "create" has no return value assignment.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading sv_std.std
+# Loading work.top_sv_unit(fast)
+# Loading work.ahb_apb_top(fast)
+# Loading work.ahb_apb_bfm_if(fast)
+# in top
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000830, Hwdata: 4dc237a5
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [DRIVER] - Driving Transaction to DUT:
+# [DRIVER] - Haddr: 00000830, Hwdata: 4dc237a5
+# [DRIVER] - Hburst: 101 (INCR8)
+# [DRIVER] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000000, Hwdata: 00000000, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Input Address: 00830
+# [SCOREBOARD] - Input Write Data: 4dc237a5
+# [SCOREBOARD] - Data Stored: 4dc237a5
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000002be, Hwdata: c736a29b
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000004b9, Hwdata: 4c37f46d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Input Address: 004b9
+# [SCOREBOARD] - Input Write Data: 4c37f46d
+# [SCOREBOARD] - Data Stored: 4c37f46d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [SCOREBOARD] - Input Address: 004b9
+# [SCOREBOARD] - Input Write Data: 4c37f46d
+# [SCOREBOARD] - Data Stored: 4c37f46d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000541, Hwdata: 13323df5
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00541
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000176, Hwdata: e2dd3b48
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Input Address: 00176
+# [SCOREBOARD] - Input Write Data: e2dd3b48
+# [SCOREBOARD] - Data Stored: e2dd3b48
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000911, Hwdata: 69c22474
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00911
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ab1, Hwdata: 82c6ecdd
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00ab1
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ebc, Hwdata: f1c43dcd
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00ebc
+# [SCOREBOARD] - Input Write Data: f1c43dcd
+# [SCOREBOARD] - Data Stored: f1c43dcd
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000d6a, Hwdata: 74bc6219
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00d6a
+# [SCOREBOARD] - Input Write Data: 74bc6219
+# [SCOREBOARD] - Data Stored: 74bc6219
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000ddc, Hwdata: 3ff1b457
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00ddc
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000db5, Hwdata: 5e330af7
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00db5
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cc4, Hwdata: 0d5be5e2
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00cc4
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000801, Hwdata: cfb22a3b
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00801
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000e3e, Hwdata: 5f58bcca
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00e3e
+# [SCOREBOARD] - Input Write Data: 5f58bcca
+# [SCOREBOARD] - Data Stored: 5f58bcca
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000009ab, Hwdata: ae65d356
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 009ab
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000d7f, Hwdata: 73a9eac4
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00d7f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000069b, Hwdata: 12e5a570
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0069b
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000001c, Hwdata: a4448eb3
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 0001c
+# [SCOREBOARD] - Input Write Data: a4448eb3
+# [SCOREBOARD] - Data Stored: a4448eb3
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000f3, Hwdata: 67281901
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000f3
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000639, Hwdata: 2730915c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00639
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000a7f, Hwdata: 39bac569
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00a7f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000925, Hwdata: 4fd6cb78
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00925
+# [SCOREBOARD] - Input Write Data: 4fd6cb78
+# [SCOREBOARD] - Data Stored: 4fd6cb78
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000c3, Hwdata: 8590e36c
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000c3
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000006bc, Hwdata: f0c866b1
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 006bc
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000dae, Hwdata: b4968915
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00dae
+# [SCOREBOARD] - Input Write Data: b4968915
+# [SCOREBOARD] - Data Stored: b4968915
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000005c3, Hwdata: 97825761
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 005c3
+# [SCOREBOARD] - Input Write Data: 97825761
+# [SCOREBOARD] - Data Stored: 97825761
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000005c4, Hwdata: c762dc98
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 005c4
+# [SCOREBOARD] - Input Write Data: c762dc98
+# [SCOREBOARD] - Data Stored: c762dc98
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cb7, Hwdata: 9f88ec46
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00cb7
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000000db, Hwdata: eef89e1e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 000db
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000006bb, Hwdata: 86b7bd6f
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 006bb
+# [SCOREBOARD] - Input Write Data: 86b7bd6f
+# [SCOREBOARD] - Data Stored: 86b7bd6f
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 000002ec, Hwdata: 3047aead
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 002ec
+# [SCOREBOARD] - Input Write Data: 3047aead
+# [SCOREBOARD] - Data Stored: 3047aead
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000cbf, Hwdata: 2e4dbc4d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00cbf
+# [SCOREBOARD] - Input Write Data: 2e4dbc4d
+# [SCOREBOARD] - Data Stored: 2e4dbc4d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000859, Hwdata: 90bec9bc
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00859
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000765, Hwdata: ebb54ad0
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00765
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000e75, Hwdata: 019e670c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00e75
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000801, Hwdata: 9f09b748
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00801
+# [SCOREBOARD] - Input Write Data: 9f09b748
+# [SCOREBOARD] - Data Stored: 9f09b748
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000035f, Hwdata: 51df7f9e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 0035f
+# [SCOREBOARD] - Input Write Data: 51df7f9e
+# [SCOREBOARD] - Data Stored: 51df7f9e
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000014e, Hwdata: 1f826f4d
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 0014e
+# [SCOREBOARD] - Input Write Data: 1f826f4d
+# [SCOREBOARD] - Data Stored: 1f826f4d
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000077d, Hwdata: 11384de2
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0077d
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000008f, Hwdata: 6ce1076c
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 0008f
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000532, Hwdata: 5fde3a21
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00532
+# [SCOREBOARD] - Input Write Data: 5fde3a21
+# [SCOREBOARD] - Data Stored: 5fde3a21
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000374, Hwdata: d7fcfd56
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00374
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000a58, Hwdata: 72be97fa
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00a58
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000f3a, Hwdata: cf5a704e
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00f3a
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000b90, Hwdata: a74cf62c
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00b90
+# [SCOREBOARD] - Input Write Data: a74cf62c
+# [SCOREBOARD] - Data Stored: a74cf62c
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 0000092a, Hwdata: 4691d8e9
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 0092a
+# [SCOREBOARD] - Input Write Data: 4691d8e9
+# [SCOREBOARD] - Data Stored: 4691d8e9
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000078, Hwdata: f0fcc408
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 11 (SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00078
+# [SCOREBOARD] - Input Write Data: f0fcc408
+# [SCOREBOARD] - Data Stored: f0fcc408
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000c23, Hwdata: 11af7271
+# [GENERATOR] - Hburst: 101 (INCR8)
+# [GENERATOR] - Htrans: 00 (UNKNOWN)
+# [SCOREBOARD] - Checking Read Transaction:
+# [SCOREBOARD] - Temp address = 00c23
+# [SCOREBOARD] - Read data from DUT: 00000000
+# [SCOREBOARD] - Data from TB memory: 00000000
+# [SCOREBOARD] - READ = DATA MATCHED
+# 
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000fd6, Hwdata: 1f7c8063
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 10 (NON-SEQ)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00fd6
+# [SCOREBOARD] - Input Write Data: 1f7c8063
+# [SCOREBOARD] - Data Stored: 1f7c8063
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [GENERATOR] - Generated Transaction:
+# [GENERATOR] - Haddr: 00000780, Hwdata: f72f666b
+# [GENERATOR] - Hburst: 100 (WRAP8)
+# [GENERATOR] - Htrans: 01 (UNKNOWN)
+# [SCOREBOARD] - Checking Write Transaction:
+# [SCOREBOARD] - Input Address: 00780
+# [SCOREBOARD] - Input Write Data: f72f666b
+# [SCOREBOARD] - Data Stored: f72f666b
+# [SCOREBOARD] - WRITE = DATA MATCHED
+# 
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# [MONITOR] - Observed Transaction:
+# [MONITOR] - Haddr: 00000830, Hwdata: 4dc237a5, Prdata: 00000000
+# [MONITOR] - Hburst: 000 (UNKNOWN)
+# [MONITOR] - Htrans: 10 (NON-SEQ)
+# ** Note: $stop    : top.sv(116)
+#    Time: 100010 ns  Iteration: 0  Instance: /ahb_apb_top
+# Break at top.sv line 116
+# Saving coverage database on exit...
+# End time: 21:57:05 on Feb 18,2025, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 2
