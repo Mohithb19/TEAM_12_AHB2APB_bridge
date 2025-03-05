@@ -1,0 +1,159 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_top_sv_unit/ahb_apb_scoreboard/cov_group    100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    type_option.weight=1
+    type_option.goal=100
+    type_option.comment=
+    type_option.strobe=0
+    type_option.merge_instances=auto(1)
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin reset_val                                       7          1          -    Covered              
+    Coverpoint bus_write                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin write_val                                    1012          1          -    Covered              
+    Coverpoint bus_read                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin read_val                                     1013          1          -    Covered              
+    Coverpoint trans_type                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        bin idle_val                                      517          1          -    Covered              
+        bin nonseq_val                                    503          1          -    Covered              
+        bin seq_val                                      1005          1          -    Covered              
+    Cross WRITE_COVERAGE                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <write_val,seq_val>                       500          1          -    Covered              
+            bin <write_val,nonseq_val>                      2          1          -    Covered              
+            bin <write_val,idle_val>                      510          1          -    Covered              
+    Cross READ_COVERAGE                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        type_option.weight=1
+        type_option.goal=100
+        type_option.comment=
+        Auto, Default and User Defined Bins:
+            bin <read_val,seq_val>                        505          1          -    Covered              
+            bin <read_val,nonseq_val>                     501          1          -    Covered              
+            bin <read_val,idle_val>                         7          1          -    Covered              
+ Covergroup instance \/tb_top_sv_unit::ahb_apb_scoreboard::cov_group  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    12         12          -                      
+    missing/total bins:                                     0         12          -                      
+    % Hit:                                            100.00%        100          -                      
+    option.name=\/tb_top_sv_unit::ahb_apb_scoreboard::cov_group 
+    option.weight=1
+    option.goal=100
+    option.comment=
+    option.at_least=1
+    option.auto_bin_max=64
+    option.cross_num_print_missing=0
+    option.detect_overlap=0
+    option.per_instance=1
+    option.get_inst_coverage=0
+    Coverpoint reset                                  100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin reset_val                                       7          1          -    Covered              
+    Coverpoint bus_write                              100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin write_val                                    1012          1          -    Covered              
+    Coverpoint bus_read                               100.00%        100          -    Covered              
+        covered/total bins:                                 1          1          -                      
+        missing/total bins:                                 0          1          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin read_val                                     1013          1          -    Covered              
+    Coverpoint trans_type                             100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.auto_bin_max=64
+        option.detect_overlap=0
+        bin idle_val                                      517          1          -    Covered              
+        bin nonseq_val                                    503          1          -    Covered              
+        bin seq_val                                      1005          1          -    Covered              
+    Cross WRITE_COVERAGE                              100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <write_val,seq_val>                       500          1          -    Covered              
+            bin <write_val,nonseq_val>                      2          1          -    Covered              
+            bin <write_val,idle_val>                      510          1          -    Covered              
+    Cross READ_COVERAGE                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        option.weight=1
+        option.goal=100
+        option.comment=
+        option.at_least=1
+        option.cross_num_print_missing=0
+        Auto, Default and User Defined Bins:
+            bin <read_val,seq_val>                        505          1          -    Covered              
+            bin <read_val,nonseq_val>                     501          1          -    Covered              
+            bin <read_val,idle_val>                         7          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
